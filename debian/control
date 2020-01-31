@@ -1,0 +1,12 @@
+Source: ros-turbulent-rmw-connext-shared-cpp
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-connext-cmake-module, ros-turbulent-rcpputils, ros-turbulent-rcutils, ros-turbulent-rmw, ros-turbulent-rosidl-cmake, rti-connext-dds-5.3.1, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rmw-connext-shared-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ament-cmake, ros-turbulent-connext-cmake-module, rti-connext-dds-5.3.1, ros-turbulent-ros-workspace
+Description: C++ types and functions shared by the ROS middleware interface to RTI Connext Static and RTI Connext Dynamic.

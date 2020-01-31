@@ -1,0 +1,12 @@
+Source: ros-turbulent-rmw-connext-cpp
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-connext-cmake-module, ros-turbulent-rcutils, ros-turbulent-rmw, ros-turbulent-rmw-connext-shared-cpp, ros-turbulent-rosidl-cmake, ros-turbulent-rosidl-generator-c, ros-turbulent-rosidl-generator-cpp, ros-turbulent-rosidl-generator-dds-idl, ros-turbulent-rosidl-typesupport-connext-c, ros-turbulent-rosidl-typesupport-connext-cpp, rti-connext-dds-5.3.1, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rmw-connext-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ament-cmake, ros-turbulent-connext-cmake-module, ros-turbulent-rcutils, ros-turbulent-rmw, ros-turbulent-rmw-connext-shared-cpp, ros-turbulent-rosidl-cmake, ros-turbulent-rosidl-generator-c, ros-turbulent-rosidl-generator-cpp, ros-turbulent-rosidl-typesupport-connext-c, ros-turbulent-rosidl-typesupport-connext-cpp, rti-connext-dds-5.3.1, ros-turbulent-ros-workspace
+Description: Implement the ROS middleware interface using RTI Connext static code generation in C++.

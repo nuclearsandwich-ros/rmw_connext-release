@@ -1,1 +1,1 @@
-{"trim": "", "base": "86e1bbc", "trimbase": "", "parent": "debian/foxy/rmw_connext_cpp", "previous": "ab3cf44"}
+{"base": "fc332ac", "parent": "debian/rolling/rmw_connext_cpp", "previous": "5681827", "trim": "", "trimbase": ""}
